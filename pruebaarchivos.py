@@ -1,4 +1,5 @@
 archivo = open("linea", "r")
-text = archivo.read()
+print(archivo.read())
+archivo.seek(0)
+print(archivo.read())
 archivo.close()
-print(text)
